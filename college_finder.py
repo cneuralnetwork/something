@@ -18,7 +18,7 @@ for it in rs:
         users.append(it)
         print("chk")
 
-csv_filename = 'iiest_cf_users.csv'
+csv_filename = 'cf_users.csv'
 
 with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = [
